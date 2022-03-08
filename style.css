@@ -1,0 +1,171 @@
+p {
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* SPRING COLORS */
+
+#spring {
+    background: #fff8e7;
+    color: #000718;
+}
+
+#spring .black {
+    background: #181f31;
+}
+
+#spring .red {
+    background: #d63c59;
+}
+
+#spring .green {
+    background: #4f9d69;
+}
+
+#spring .yellow {
+    background: #e2a954;
+}
+
+#spring .blue {
+    background: #53879f;
+}
+
+#spring .magenta {
+    background: #ba70b4;
+}
+
+#spring .cyan {
+    background: #48a9a6;
+}
+
+#spring .white {
+    background: #e7e0ce;
+}
+
+
+/* SUMMER COLORS */
+
+#summer {
+    background: #e7e0ce;
+    color: #181f31;
+}
+
+#summer .black {
+    background: #000718;
+}
+
+#summer .red {
+    background: #d63c59;
+}
+
+#summer .green {
+    background: #4f9d69;
+}
+
+#summer .yellow {
+    background: #e2a954;
+}
+
+#summer .blue {
+    background: #53879f;
+}
+
+#summer .magenta {
+    background: #ba70b4;
+}
+
+#summer .cyan {
+    background: #48a9a6;
+}
+
+#summer .white {
+    background: #fff8e7;
+}
+
+
+/* AUTUMN COLORS */
+
+#autumn {
+    background: #000718;
+    color: #fff8e7;
+}
+
+#autumn .black {
+    background: #181f31;
+}
+
+#autumn .red {
+    background: #d63c59;
+}
+
+#autumn .green {
+    background: #4f9d69;
+}
+
+#autumn .yellow {
+    background: #e2a954;
+}
+
+#autumn .blue {
+    background: #53879f;
+}
+
+#autumn .magenta {
+    background: #ba70b4;
+}
+
+#autumn .cyan {
+    background: #48a9a6;
+}
+
+#autumn .white {
+    background: #e7e0ce;
+}
+
+
+/* WINTER COLORS */
+
+#winter {
+    background: #181f31;
+    color: #e7e0ce;
+}
+
+#winter .black {
+    background: #000718;
+}
+
+#winter .red {
+    background: #d63c59;
+}
+
+#winter .green {
+    background: #4f9d69;
+}
+
+#winter .yellow {
+    background: #e2a954;
+}
+
+#winter .blue {
+    background: #53879f;
+}
+
+#winter .magenta {
+    background: #ba70b4;
+}
+
+#winter .cyan {
+    background: #48a9a6;
+}
+
+#winter .white {
+    background: #fff8e7;
+}
