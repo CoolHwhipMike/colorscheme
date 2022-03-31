@@ -1,3 +1,13 @@
+:root {
+    --cosmic: #fff8e7;
+    --red: #d63c59;
+    --green: #4f9d69;
+    --yellow: #e2a954;
+    --blue: #53879f;
+    --magenta: #ba70b4;
+    --cyan: #48a9a6;
+}
+
 p {
     padding: 10px;
 }
@@ -11,161 +21,161 @@ p {
 }
 
 
-/* SPRING COLORS */
+/* dawn COLORS */
 
-#spring {
-    background: #fff8e7;
+#dawn {
+    background: var(--cosmic);
     color: #000718;
 }
 
-#spring .black {
+#dawn .black {
     background: #181f31;
 }
 
-#spring .red {
-    background: #d63c59;
+#dawn .red {
+background: var(--red);
 }
 
-#spring .green {
-    background: #4f9d69;
+#dawn .green {
+    background: var(--green);
 }
 
-#spring .yellow {
-    background: #e2a954;
+#dawn .yellow {
+    background: var(--yellow);
 }
 
-#spring .blue {
-    background: #53879f;
+#dawn .blue {
+    background: var(--blue);
 }
 
-#spring .magenta {
-    background: #ba70b4;
+#dawn .magenta {
+    background: var(--magenta);
 }
 
-#spring .cyan {
-    background: #48a9a6;
+#dawn .cyan {
+    background: var(--cyan);
 }
 
-#spring .white {
+#dawn .white {
     background: #e7e0ce;
 }
 
 
-/* SUMMER COLORS */
+/* day COLORS */
 
-#summer {
+#day {
     background: #e7e0ce;
     color: #181f31;
 }
 
-#summer .black {
+#day .black {
     background: #000718;
 }
 
-#summer .red {
-    background: #d63c59;
+#day .red {
+background: var(--red);
 }
 
-#summer .green {
-    background: #4f9d69;
+#day .green {
+    background: var(--green);
 }
 
-#summer .yellow {
-    background: #e2a954;
+#day .yellow {
+    background: var(--yellow);
 }
 
-#summer .blue {
-    background: #53879f;
+#day .blue {
+    background: var(--blue);
 }
 
-#summer .magenta {
-    background: #ba70b4;
+#day .magenta {
+    background: var(--magenta);
 }
 
-#summer .cyan {
-    background: #48a9a6;
+#day .cyan {
+    background: var(--cyan);
 }
 
-#summer .white {
+#day .white {
     background: #fff8e7;
 }
 
 
-/* AUTUMN COLORS */
+/* night COLORS */
 
-#autumn {
+#night {
     background: #000718;
     color: #fff8e7;
 }
 
-#autumn .black {
+#night .black {
     background: #181f31;
 }
 
-#autumn .red {
-    background: #d63c59;
+#night .red {
+background: var(--red);
 }
 
-#autumn .green {
-    background: #4f9d69;
+#night .green {
+    background: var(--green);
 }
 
-#autumn .yellow {
-    background: #e2a954;
+#night .yellow {
+    background: var(--yellow);
 }
 
-#autumn .blue {
-    background: #53879f;
+#night .blue {
+    background: var(--blue);
 }
 
-#autumn .magenta {
-    background: #ba70b4;
+#night .magenta {
+    background: var(--magenta);
 }
 
-#autumn .cyan {
-    background: #48a9a6;
+#night .cyan {
+    background: var(--cyan);
 }
 
-#autumn .white {
+#night .white {
     background: #e7e0ce;
 }
 
 
-/* WINTER COLORS */
+/* dusk COLORS */
 
-#winter {
+#dusk {
     background: #181f31;
     color: #e7e0ce;
 }
 
-#winter .black {
+#dusk .black {
     background: #000718;
 }
 
-#winter .red {
-    background: #d63c59;
+#dusk .red {
+background: var(--red);
 }
 
-#winter .green {
-    background: #4f9d69;
+#dusk .green {
+    background: var(--green);
 }
 
-#winter .yellow {
-    background: #e2a954;
+#dusk .yellow {
+    background: var(--yellow);
 }
 
-#winter .blue {
-    background: #53879f;
+#dusk .blue {
+    background: var(--blue);
 }
 
-#winter .magenta {
-    background: #ba70b4;
+#dusk .magenta {
+    background: var(--magenta);
 }
 
-#winter .cyan {
-    background: #48a9a6;
+#dusk .cyan {
+    background: var(--cyan);
 }
 
-#winter .white {
+#dusk .white {
     background: #fff8e7;
 }
