@@ -1,11 +1,25 @@
 :root {
-    --cosmic: #fff8e7;
+    --black: #181f31;
     --red: #d63c59;
     --green: #4f9d69;
     --yellow: #e2a954;
     --blue: #53879f;
     --magenta: #ba70b4;
     --cyan: #48a9a6;
+    --white: #e7e0ce;
+
+    --cosmic: #fff8e7;
+    --inverse: hsl(223, 100%, 5%);
+    /* --outer-space: #414A4C; */
+    --charcoal: hsl(223, 10%, 15%);
+    /* --gunmetal: #2c3539; */
+    /* --smoke: hsl(0, 0%, 96%); */
+    --slate: hsl(223, 10%, 85%);
+
+    --dark: hsl(223, 20%, 10%);
+    --med: hsl(223, 20%, 20%);
+    --light: hsl(223, 20%, 70%);
+    --lightest: hsl(223, 20%, 90%);
 }
 
 p {
@@ -24,12 +38,13 @@ p {
 /* dawn COLORS */
 
 #dawn {
-    background: var(--cosmic);
-    color: #000718;
+    /* background: var(--slate); */
+    background: var(--light);
+    color: var(--inverse);
 }
 
 #dawn .black {
-    background: #181f31;
+    background: var(--charcoal);
 }
 
 #dawn .red {
@@ -57,19 +72,20 @@ background: var(--red);
 }
 
 #dawn .white {
-    background: #e7e0ce;
+    background: var(--slate);
 }
 
 
 /* day COLORS */
 
 #day {
-    background: #e7e0ce;
-    color: #181f31;
+    /* background: var(--cosmic); */
+    background: var(--lightest);
+    color: var(--inverse);
 }
 
 #day .black {
-    background: #000718;
+    background: var(--charcoal);
 }
 
 #day .red {
@@ -97,19 +113,20 @@ background: var(--red);
 }
 
 #day .white {
-    background: #fff8e7;
+    background: var(--slate);
 }
 
 
 /* night COLORS */
 
 #night {
-    background: #000718;
-    color: #fff8e7;
+    /* background: var(--inverse); */
+    background: var(--dark);
+    color: var(--cosmic);
 }
 
 #night .black {
-    background: #181f31;
+    background: var(--charcoal);
 }
 
 #night .red {
@@ -137,19 +154,20 @@ background: var(--red);
 }
 
 #night .white {
-    background: #e7e0ce;
+    background: var(--slate);
 }
 
 
 /* dusk COLORS */
 
 #dusk {
-    background: #181f31;
-    color: #e7e0ce;
+    /* background: var(--charcoal); */
+    background: var(--med);
+    color: var(--cosmic);
 }
 
 #dusk .black {
-    background: #000718;
+    background: var(--charcoal);
 }
 
 #dusk .red {
@@ -177,5 +195,5 @@ background: var(--red);
 }
 
 #dusk .white {
-    background: #fff8e7;
+    background: var(--slate);
 }
