@@ -5,12 +5,12 @@
     --blue: #53879f;
     --magenta: #ba70b4;
     --cyan: #48a9a6;
-    --cosmic: hsl(42, 100%, 95%);
-    --light: hsl(42, 25%, 85%);
-    --slate: hsl(42, 25%, 90%); 
-    --inverse: hsl(223, 100%, 5%);
-    --med: hsl(223, 25%, 15%);
-    --charcoal: hsl(223, 25%, 10%);
+    --cosmic: #fff8e7;
+    --light: #e2ddcf;
+    --slate: #ece8df; 
+    --inverse: #000718;
+    --med: #1d2230;
+    --charcoal: #131720;
     /* --black: #181e30; */
     /* --white: #e7e0ce; */
     /* --lightest: hsl(223, 20%, 90%); */
