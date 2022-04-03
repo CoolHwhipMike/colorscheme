@@ -1,200 +1,146 @@
-:root {
-    --red: #d63c59;
-    --green: #4f9d69;
-    --yellow: #e2a954;
-    --blue: #53879f;
-    --magenta: #ba70b4;
-    --cyan: #48a9a6;
-    --cosmic: #fff8e7;
-    --light: #e2ddcf;
-    --slate: #ece8df; 
-    --inverse: #000718;
-    --med: #1d2230;
-    --charcoal: #131720;
+
     /* --black: #181e30; */
     /* --white: #e7e0ce; */
     /* --lightest: hsl(223, 20%, 90%); */
     /* --dark: hsl(223, 20%, 10%); */
-    /* --slate: hsl(223, 10%, 85%);  */
+    /* --NormalWhite: hsl(223, 10%, 85%);  */
     /* --outer-space: #414A4C; */
     /* --gunmetal: #2c3539; */
     /* --smoke: hsl(0, 0%, 96%); */
     /* --med: hsl(223, 20%, 20%); */
     /* --light: hsl(223, 20%, 70%); */
-}
 
 p {
-    padding: 10px;
+    padding: 25px;
+    margin: 0;
+    text-align: center;
 }
 
 .flex {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     gap: 15px;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
 }
 
-
-/* dawn COLORS */
-
-#dawn {
-    /* background: var(--slate); */
-    background: var(--light);
-    color: var(--inverse);
+.AccentOne {
+    background-color: hsl(275, 60%, 55%);
+}
+.AccentTwo {
+    background-color: hsl(75, 60%, 55%);
 }
 
-#dawn .black {
-    background: var(--charcoal);
+/* #131720 
+hsl(223, 25%, 10%) */
+.DarkBlack {
+    background-color: hsl(223, 5%, 15%);
+}
+.NormalBlack {
+    background-color: hsl(223, 5%, 20%);
+}
+.LightBlack {
+    background-color: hsl(223, 5%, 30%);
 }
 
-#dawn .red {
-background: var(--red);
+/* #d63c59
+ hsl(349, 65%, 54%) */
+.DarkRed {
+    background-color: hsl(349, 55%, 40%);
+}
+.NormalRed {
+    background-color: hsl(349, 55%, 45%);
+}
+.LightRed {
+    background-color: hsl(349, 55%, 55%);
 }
 
-#dawn .green {
-    background: var(--green);
+/* #4f9d69
+ hsl(140, 33%, 46%) */
+.DarkGreen {
+    background-color: hsl(140, 35%, 40%);
+}
+.NormalGreen {
+    background-color: hsl(140, 35%, 45%);
+}
+.LightGreen {
+    background-color: hsl(140, 35%, 55%);
 }
 
-#dawn .yellow {
-    background: var(--yellow);
+/* #e2a954
+hsl(36, 71%, 61%) */
+.DarkYellow {
+    background-color: hsl(36, 55%, 55%);
+}
+.NormalYellow {
+    background-color: hsl(36, 55%, 60%);
+}
+.LightYellow {
+    background-color: hsl(36, 55%, 70%);
 }
 
-#dawn .blue {
-    background: var(--blue);
+/* #53879f 
+hsl(199, 31%, 47%) */
+.DarkBlue {
+    background-color: hsl(199, 35%, 45%);
+}
+.NormalBlue {
+    background-color: hsl(199, 35%, 50%);
+}
+.LightBlue {
+    background-color: hsl(199, 35%, 60%);
 }
 
-#dawn .magenta {
-    background: var(--magenta);
+/* #ba70b4
+hsl(305, 35%, 58%) */
+.DarkMagenta {
+    background-color: hsl(305, 35%, 55%);
+}
+.NormalMagenta {
+    background-color: hsl(305, 35%, 60%);
+}
+.LightMagenta {
+    background-color: hsl(305, 35%, 70%);
 }
 
-#dawn .cyan {
-    background: var(--cyan);
+/* #48a9a6
+hsl(178, 40%, 47%) */
+.DarkCyan {
+    background-color: hsl(178, 35%, 45%);
+}
+.NormalCyan {
+    background-color: hsl(178, 35%, 50%);
+}
+.LightCyan {
+    background-color: hsl(178, 35%, 60%);
 }
 
-#dawn .white {
-    background: var(--slate);
+/* #ece8df
+hsl(42, 25%, 90%) */
+.DarkWhite {
+    background-color: hsl(42, 5%, 70%);
+}
+.NormalWhite {
+    background-color: hsl(42, 5%, 80%);
+}
+.LightWhite {
+    background-color: hsl(42, 5%, 85%);
 }
 
-
-/* day COLORS */
-
-#day {
-    background: var(--cosmic);
-    /* background: var(--lightest); */
-    color: var(--inverse);
+#CosmicDawn {
+    background-color: #e2ddcf;
+    color: #000718;
 }
-
-#day .black {
-    background: var(--charcoal);
+#CosmicDay {
+    background-color: #fff8e7;
+    color: #000718;
 }
-
-#day .red {
-background: var(--red);
+#CosmicDusk {
+    background-color: #1d2230;
+    color: #fff8e7;
 }
-
-#day .green {
-    background: var(--green);
-}
-
-#day .yellow {
-    background: var(--yellow);
-}
-
-#day .blue {
-    background: var(--blue);
-}
-
-#day .magenta {
-    background: var(--magenta);
-}
-
-#day .cyan {
-    background: var(--cyan);
-}
-
-#day .white {
-    background: var(--slate);
-}
-
-
-/* night COLORS */
-
-#night {
-    background: var(--inverse);
-    /* background: var(--dark); */
-    color: var(--cosmic);
-}
-
-#night .black {
-    background: var(--charcoal);
-}
-
-#night .red {
-background: var(--red);
-}
-
-#night .green {
-    background: var(--green);
-}
-
-#night .yellow {
-    background: var(--yellow);
-}
-
-#night .blue {
-    background: var(--blue);
-}
-
-#night .magenta {
-    background: var(--magenta);
-}
-
-#night .cyan {
-    background: var(--cyan);
-}
-
-#night .white {
-    background: var(--slate);
-}
-
-
-/* dusk COLORS */
-
-#dusk {
-    /* background: var(--charcoal); */
-    background: var(--med);
-    color: var(--cosmic);
-}
-
-#dusk .black {
-    background: var(--charcoal);
-}
-
-#dusk .red {
-background: var(--red);
-}
-
-#dusk .green {
-    background: var(--green);
-}
-
-#dusk .yellow {
-    background: var(--yellow);
-}
-
-#dusk .blue {
-    background: var(--blue);
-}
-
-#dusk .magenta {
-    background: var(--magenta);
-}
-
-#dusk .cyan {
-    background: var(--cyan);
-}
-
-#dusk .white {
-    background: var(--slate);
+#CosmicNight {
+    background-color: #000718;
+    color: #fff8e7;
 }
